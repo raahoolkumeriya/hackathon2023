@@ -22,7 +22,7 @@ class StreamlitSetup(Enum):
             }
             </style>
             """
-    APPLICATION_TITLE = "Food Analysis"
+    APPLICATION_TITLE = "Employee Analysis"
     DASHBOARD_FEATURES = f"""
         - TODO: Features will go here
         """
@@ -45,12 +45,8 @@ class StreamlitSetup(Enum):
     FORMAT_BUTTON = 'frameborder="0" scrolling="0" width="170" height="30" title="GitHub"'
     GITHUB_BTN = f'<iframe src="{REPO_URL}&{BUTTON_SIZE}" {FORMAT_BUTTON}></iframe>'
     GITHUB_STAR = f'<iframe src="{REPO_URL}&type=star&{BUTTON_SIZE}" {FORMAT_BUTTON}></iframe>'
-    GITHUB_WATCH = f'<iframe src="{REPO_URL}&type=watch&{BUTTON_SIZE}" {FORMAT_BUTTON}></iframe>'
-    GITHUB_FORK = f'<iframe src="{REPO_URL}&type=fork&{BUTTON_SIZE}" {FORMAT_BUTTON}></iframe>'
 
     SOCIAL = f'''
     <p align="left"> 
-        <a href="https://github.com/raahoolkumeriya" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="raahoolkumeriya" height="30" width="40" /></a>
-        <a href="https://twitter.com/kumeriyaRahul" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="kumeriyaRahul" height="30" width="40" /></a>
-        <a href="https://linkedin.com/in/rahulkumeriya" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="rahulkumeriya" height="30" width="40" /></a>
+        <a href="https://github.com/db-hackathon/botarmy" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="botarmy" height="30" width="40" /></a>
     </p>'''

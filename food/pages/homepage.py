@@ -12,7 +12,7 @@ def app():
     """
     TODO
     """
-    st.subheader("Main Dashboard homepage")
+    st.subheader(":balloon:")
 
     
    
