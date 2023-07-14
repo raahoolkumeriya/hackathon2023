@@ -1,0 +1,7 @@
+pandas
+numpy
+seaborn
+matplotlib
+google-cloud-bigquery
+plotly-express
+streamlit
